@@ -1,0 +1,79 @@
+
+The GHSL Dataset is too large. The raw form of it is 11,433 rows x 2,678 columns. Looking at the index, features have data every 5 years form 
+1975 to 2015, then data every year from 2015 to 2025, then projections for 2030, 2040, and 2070
+
+First we drop the future projects, as they lie outside the scope of our project. 
+
+
+
+Unique ID			ID_UC_G0
+
+PM2.5 population weighted average concentrations		EM_PM2_CON_XXXX
+
+
+Urban Centre Main Name		GC_UCN_MAI_XXXX
+Urban Centre Area		GC_UCA_KM2_XXXX
+Urban Centre population		GC_POP_TOT_XXXX
+World Bank Income Group		GC_DEV_WIG_XXXX
+Total built-up surface per capita		GH_BPC_TOT_XXXX
+Total Population		GH_POP_TOT_XXXX
+Compound Annual Growth Rate		GH_POP_CAG_XXXX
+
+Average GDP		SC_GDP_AVG_XXXX
+Human Development Index		SC_SEC_HDI_XXXX
+Gender Development Index		SC_SEC_GDI_XXXX
+Life expectancy		SC_SEC_LET_XXXX
+Mean years of schooling		SC_SEC_SYT_XXXX
+
+Emissions of  CO2 per capita	EM_CO2_PEC_XXXX
+Emissions of  GHG per capita	EM_GHG_PEC_XXXX
+Emissions of  NOx per capita	EM_NOX_PEC_XXXX
+Emissions of  PM2.5 per capita	EM_PM2_PEC_XXXX
+
+
+
+
+Number of events 'violence against civilians'  	HZ_CON_VAC_XXXX
+Number of events 'riots'  	HZ_CON_RIO_XXXX
+Number of events 'protests'  	HZ_CON_PRO_XXXX
+
+
+Earthquake occurrence 	HZ_CEV_EAR_XXXX
+Extreme wind occurrence (number of hazards per year)	HZ_CEV_EWI_XXXX
+Tsunami occurrence (number of hazards per year)	HZ_CEV_TSU_XXXX
+Heatwave occurrence (number of hazards per year)	HZ_CEV_HEW_XXXX
+Drought occurrence (number of hazards per year)	HZ_CEV_DRO_XXXX
+Flood occurrence (number of hazards per year)	HZ_CEV_FLO_XXXX
+Tropical Cyclone occurrence (number of hazards per year)	HZ_CEV_TCY_XXXX
+Volcano  occurrence (number of hazards per year)	HZ_CEV_VOL_XXXX
+Landslide occurrence (number of hazards per year)	HZ_CEV_LAN_XXXX
+Coldwave  occurrence (number of hazards per year)	HZ_CEV_COW_XXXX
+Wildfire occurrence (number of hazards per year)	HZ_CEV_WLF_XXXX
+
+Share of green area in built-up area		GR_SHB_GRN_XXXX
+Share of population living in the high green area		SD_POP_HGR_XXXX
+
+Biointegrity transgression 		NS_ESB_BIO_XXXX
+Groundwater transgression		NS_ESB_GWA_XXXX
+Nitrogen transgression		NS_ESB_NIT_XXXX
+Phosphorus transgression		NS_ESB_PHO_XXXX
+PM2.5 transgression		NS_ESB_P25_XXXX
+Sea Level Rise transgression		NS_ESB_SLR_XXXX
+Surface water transgression		NS_ESB_SWA_XXXX
+Wet bulb temperature transgression		NS_ESB_WET_XXXX
+Minim number of limitis transgressed		NS_ESB_MIN_XXXX
+Maximum number of limitis transgressed		NS_ESB_MAX_XXXX
+
+Number of hospitals per capita		HL_FPC_HOS_XXXX
+Share of the urban centre population living within 1 km buffer from a hospital	HL_SHP_HOS_XXXX
+
+Road network density		IN_ROA_DEN_XXXX
+CISI (all sectors)		IN_CIS_ALL_XXXX
+CISI energy sector		IN_CIS_ENE_XXXX
+CISI transport sector		IN_CIS_TRA_XXXX
+CISI water sector		IN_CIS_WAT_XXXX
+CISI waste sector		IN_CIS_WAS_XXXX
+CISI telecommunication sector		IN_CIS_TEL_XXXX
+CISI healthcare sector		IN_CIS_HEA_XXXX
+CISI education sector		IN_CIS_EDU_XXXX
+
